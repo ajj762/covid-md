@@ -2,7 +2,7 @@ Package: covid
 Title: Maryland COVID Data
 Version: 0.0.0.9000
 Authors@R: 
-    person("Annie", "Jennemann", , "ajennemann@baltsun.com")
+    person("Annie", "Jennemann", "ajennemann@baltsun.com")
 Description: Scrapes Maryland COVID data.
 License:
 Encoding: UTF-8
