@@ -28,3 +28,11 @@ jobs:
         run: |
           source("R/covid.R")
         shell: Rscript {0}
+
+      - name: Commit files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add --all
+          git commit -am "add data"
+          git push
