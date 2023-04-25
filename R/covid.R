@@ -2,8 +2,6 @@ library(tidyverse)
 library(googlesheets4)
 library(RSocrata)
 
-setwd("/Users/anniejennemann/Documents/covid")
-
 gs4_auth(email = "anniejjennemann@gmail.com")
 
 as_sheets_id(covid)
