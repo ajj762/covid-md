@@ -38,7 +38,7 @@ jobs:
       - name: Check
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
-              - name: Generate data
+      - name: Generate data
         run: |
           source("R/covid.R")
         shell: Rscript {0}
